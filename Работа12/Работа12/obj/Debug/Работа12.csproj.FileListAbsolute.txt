@@ -1,6 +1,0 @@
-c:\users\student\documents\visual studio 2015\Projects\Работа12\Работа12\bin\Debug\Работа12.exe.config
-c:\users\student\documents\visual studio 2015\Projects\Работа12\Работа12\bin\Debug\Работа12.exe
-c:\users\student\documents\visual studio 2015\Projects\Работа12\Работа12\bin\Debug\Работа12.pdb
-c:\users\student\documents\visual studio 2015\Projects\Работа12\Работа12\obj\Debug\Работа12.csprojResolveAssemblyReference.cache
-c:\users\student\documents\visual studio 2015\Projects\Работа12\Работа12\obj\Debug\Работа12.exe
-c:\users\student\documents\visual studio 2015\Projects\Работа12\Работа12\obj\Debug\Работа12.pdb
