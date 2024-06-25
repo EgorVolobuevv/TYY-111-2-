@@ -1,0 +1,12 @@
+C:\Users\sabba\source\repos\lr_egor\lr_egor\bin\Debug\lr_egor.exe
+C:\Users\sabba\source\repos\lr_egor\lr_egor\bin\Debug\lr_egor.pdb
+C:\Users\sabba\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.csproj.AssemblyReference.cache
+C:\Users\sabba\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.csproj.CoreCompileInputs.cache
+C:\Users\sabba\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.exe
+C:\Users\sabba\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.pdb
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\bin\Debug\lr_egor.exe
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\bin\Debug\lr_egor.pdb
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.csproj.AssemblyReference.cache
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.csproj.CoreCompileInputs.cache
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.exe
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.pdb

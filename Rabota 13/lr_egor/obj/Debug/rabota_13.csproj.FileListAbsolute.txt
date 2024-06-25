@@ -1,0 +1,6 @@
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\bin\Debug\lr_egor.exe
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\bin\Debug\lr_egor.pdb
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\rabota_13.csproj.AssemblyReference.cache
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\rabota_13.csproj.CoreCompileInputs.cache
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.exe
+C:\Users\ЕГОР\source\repos\lr_egor\lr_egor\obj\Debug\lr_egor.pdb

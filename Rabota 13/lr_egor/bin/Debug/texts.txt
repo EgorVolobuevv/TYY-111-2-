@@ -1,0 +1,2 @@
+1,12,текст,timesNewRoman,black,0,False
+2,12,текст,timesNewRoman,black,0,False
