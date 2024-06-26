@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using static rabota_13.Text;
+using static System.Net.Mime.MediaTypeNames;
 
 
 namespace rabota_13
@@ -51,18 +52,19 @@ namespace rabota_13
             Console.WriteLine("Уменьшаем размер первого текста на 2 ");
             textOne--;
             Console.WriteLine(textOne.ToString());
-            Console.WriteLine("Загруженные из файла тексты");
+            Console.WriteLine("Сравнение двух одинаковых загруженных из файла текстов");
             Console.WriteLine(textOne.ToString());
             Console.WriteLine(textTwo.ToString());           
             Console.WriteLine(loadedTexts[0].Equals(loadedTexts[1]));             
             Console.WriteLine("Реинициализируем текст");
             Text reinitializedText = new Text();
-            reinitializedText.textRein(1, 14, "новый текст", "timesNewRoman", "black", 1, false);
+            reinitializedText.textRein(1, 14, "новый текст", "timesNewRoman", "black", -1, false);
             reinitializedText.reinFontSizeAndFontFamily(52, FontFamily.arial);
             reinitializedText.reinColor(FontColor.red);
             reinitializedText = !reinitializedText;
-            Console.WriteLine(reinitializedText.ToString());
             Console.WriteLine("Cравнение загруженного и реинициализированного текстов");
+            Console.WriteLine(textOne.ToString());
+            Console.WriteLine(reinitializedText.ToString());
             Console.WriteLine(reinitializedText.Equals(loadedTexts[1]));
             Console.ReadKey();
         }
@@ -158,6 +160,7 @@ namespace rabota_13
         public static Text operator !(Text text)
         {
             text.allCapsSign = !text.allCapsSign;
+            text.content= text.content.ToString().ToUpper();
             return text;
         }
 
@@ -203,13 +206,10 @@ namespace rabota_13
             {
                 case FontFamily.timesNewRoman:
                     return "Times New Roman";
-                    break;
                 case FontFamily.arial:
                     return "Arial";
-                    break;
                 case FontFamily.comicSans:
-                    return "Comic Saans";
-                    break;
+                    return "Comic Sans";
                 default:
                     break;
             }
@@ -222,13 +222,10 @@ namespace rabota_13
             {
                 case FontColor.red:
                     return "Красный";
-                    break;
                 case FontColor.white:
-                    return "Белый";
-                    break;
+                    return "Белый"; 
                 case FontColor.black:
                     return "Черный";
-                    break;
                 default:
                     break;
             }
@@ -241,13 +238,10 @@ namespace rabota_13
             {
                 case -1:
                     return "нижний";
-                    break;
                 case 1:
                     return "верхний";
-                    break;
                 default:
                     return "нормальный";
-                    break;
             }
         }
 
@@ -294,6 +288,10 @@ namespace rabota_13
         }
         public override string ToString()
         {
+            if (allCapsSign)
+            {
+                return $"{id}. «{content}» [{_fontFamily(fontFamily)}][{fontSize}][{_fontColor(fontColor)}][{_fontRegister(fontRegister)}]".ToUpper();
+            }
             return $"{id}. «{content}» [{_fontFamily(fontFamily)}][{fontSize}][{_fontColor(fontColor)}][{_fontRegister(fontRegister)}]";
         }
         
